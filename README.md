@@ -100,37 +100,45 @@ Live API Demo
 
 Future Improvements
 
-Roles & Responsibilities
+Roles & Responsibilities1️⃣ Mo'men Osman Mohamed – Project Coordinator & Backend Developer
 
-• Backend Developer (Mo’men Osman)
+Coordinating team workflow and task distribution
 
-Design system architecture
+Designing system architecture (Clean Architecture)
 
-Implement REST APIs
+Implementing Authentication & Authorization (JWT, Role-Based Access)
 
-JWT authentication & role management
+Ensuring API consistency and security standards
 
-Database design & normalization
+2️⃣ Sayed Osama Sayed – Database Designer & Exam Logic Developer
 
-Business logic implementation
+Designing ER Diagram and relational database schema
 
-Analytics & reporting
+Implementing Exam Management logic (start/end time, duration, attempts limit)
 
-• Team Member 2
+Ensuring data normalization and integrity
 
-Documentation
+Optimizing database queries
 
-ERD & UML diagrams
+3️⃣ Ahmed Mohamed Ahmed Atta – Grading & Anti-Cheating Specialist
 
-API testing
+Implementing Auto-Grading system (MCQ & True/False)
 
-• Team Member 3
+Developing score calculation algorithms
 
-Presentation
+Designing and implementing Anti-Cheating logic
 
-System testing
+Handling time tracking and exam state management
 
-Poster & visual materials
+4️⃣ Ahmed Eid – Analytics & Reporting Engineer
+
+Implementing performance analysis features
+
+Writing SQL aggregation queries for reports
+
+Calculating success/failure rates and averages
+
+Preparing final system reports and presentation materials
 
 KPIs (Key Performance Indicators)
 
