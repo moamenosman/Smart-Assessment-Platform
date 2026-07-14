@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bZpSiaQni0w=",
+  "dgSpecHash": "fkSPLA+mIic=",
   "success": true,
-  "projectFilePath": "C:\\Users\\madaa\\OneDrive\\Desktop\\SmartAssessment\\SmartAssessment.API\\SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj",
+  "projectFilePath": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\madaa\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\madaa\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

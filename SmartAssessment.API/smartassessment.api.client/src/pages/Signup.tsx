@@ -3,6 +3,7 @@ import api from "../api/api";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
+import logo from "../assets/logo-smart.jpeg";
 function Signup() {
 
     const navigate = useNavigate();
@@ -64,49 +65,77 @@ function Signup() {
 
     return (
 
-        <div>
+        <div className="login-page">
 
-            <h1>Sign Up</h1>
+            <div className="login-container">
 
-            <input
-                type="text"
-                placeholder="Full Name"
-                value={fullName}
-                onChange={(e) => setFullName(e.target.value)}
-            />
+                <div className="title-row">
 
-            <br />
-            <br />
+                    <img
+                        src={logo}
+                        alt="Smart Assessment"
+                        className="login-logo"
+                    />
 
-            <input
-                type="email"
-                placeholder="Email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-            />
+                    <h1>
+                        Create <span>Account</span>
+                    </h1>
 
-            <br />
-            <br />
-            
-            <input
-                type="password"
-                placeholder="Password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-            />
-            <br />
-            <br />
+                </div>
 
-            <button onClick={handleRegister}>
-                Sign Up
-            </button>
+                <p className="subtitle">
+                    Create your Smart Assessment account
+                </p>
 
-            <br />
-            <br />
+                <label>Full Name</label>
 
-            <button onClick={() => navigate("/login", { replace: true })}>
-                Already have an account? Login
-            </button>
+                <input
+                    className="input"
+                    type="text"
+                    placeholder="Enter your full name"
+                    value={fullName}
+                    onChange={(e) => setFullName(e.target.value)}
+                />
+
+                <label>Email Address</label>
+
+                <input
+                    className="input"
+                    type="email"
+                    placeholder="Enter your email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                />
+
+                <label>Password</label>
+
+                <input
+                    className="input"
+                    type="password"
+                    placeholder="Enter your password"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                />
+
+                <button
+                    className="btn btn-primary full-width"
+                    onClick={handleRegister}
+                >
+                    Create Account
+                </button>
+
+                <div className="divider">
+                    <span>OR</span>
+                </div>
+
+                <button
+                    className="btn btn-outline full-width"
+                    onClick={() => navigate("/login", { replace: true })}
+                >
+                    Back to Login
+                </button>
+
+            </div>
 
         </div>
 

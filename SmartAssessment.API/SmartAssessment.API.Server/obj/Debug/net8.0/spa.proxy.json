@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:58433",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\Users\\madaa\\OneDrive\\Desktop\\SmartAssessment\\SmartAssessment.API\\SmartAssessment.API.Server\\..\\smartassessment.api.client",
+"WorkingDirectory": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\SmartAssessment.API.Server\\..\\smartassessment.api.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

@@ -9,6 +9,7 @@ function StudentDashboard() {
     const [exams, setExams] = useState<any[]>([]);
 
     useEffect(() => {   
+        sessionStorage.removeItem("result");
 
         const getExams = async () => {
 
@@ -58,42 +59,79 @@ function StudentDashboard() {
 
     }
 
-    return ( 
+    const getExamStatus = (exam: any) => {
 
+        if (exam.alreadySubmitted)
+            return "Submitted";
+
+        const now = new Date();
+
+        const start = new Date(exam.startTime);
+        const end = new Date(exam.endTime);
+
+        if (now < start)
+            return "Upcoming";
+
+        if (now > end)
+            return "Closed";
+
+        return "Available";
+    };
+
+    return (
         <>
-        <Navbar2 />
+            <Navbar2 />
 
-        <div>
+            <div className="page-container">
 
-            <h1>Student Dashboard</h1>
+                <h1 className="page-title">
+                    Student Dashboard
+                </h1>
 
-            {exams.map((exam) => (
+                {exams.map((exam) => (
 
-                <div
-                    key={exam.id}
-                    style={{
-                        border: "1px solid gray",
-                        padding: "15px",
-                        marginBottom: "15px",
-                        width: "400px"
-                    }}
-                >
+                    <div
+                        key={exam.id}
+                        className="exam-card"
+                    >
 
-                    <h2>{exam.title}</h2>
+                        <div className="exam-info">
 
-                    <p>{exam.description}</p>
+                            <h2>{exam.title}</h2>
 
-                    <p>Duration: {exam.duration} Minutes</p>
+                            <span className={`status-badge ${getExamStatus(exam).toLowerCase()}`}>
+                                {getExamStatus(exam)}
+                            </span>
 
-                    <button onClick={() => startExam(exam.id)}>
-                        Start Exam
-                    </button>
+                            <p>{exam.description}</p>
 
-                </div>
+                            <span>
+                                <strong className="exam-duration1">Duration: </strong> <span className="exam-duration">{exam.duration} Minutes</span>
+                            </span>
 
-            ))}
+                        </div>
 
-        </div>
+                        <div className="exam-actions">
+
+                            <button
+                                className="btn btn-primary"
+                                disabled={getExamStatus(exam) !== "Available"}
+                                onClick={() => startExam(exam.id)}
+                            >
+                                {
+                                    getExamStatus(exam) === "Available"
+                                        ? "Start Exam"
+                                        : getExamStatus(exam)
+                                }
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                ))}
+
+            </div>
 
         </>
     );

@@ -4,6 +4,8 @@ namespace SmartAssessment.API.Server.DTOs;
 
 public class ExamDto
 {
+    public int Id { get; set; }
+
     [Required]
     public string Title { get; set; } = string.Empty;
 
@@ -20,6 +22,7 @@ public class ExamDto
 
     public int PassPercentage { get; set; } = 50;
 
-    [Required]
     public int InstructorId { get; set; }
+
+    public bool AlreadySubmitted { get; set; }
 }

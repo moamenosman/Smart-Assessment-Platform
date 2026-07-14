@@ -1,4 +1,5 @@
 import { useNavigate, useLocation } from "react-router-dom";
+import "../styles/components.css";
 
 function Navbar2() {
 
@@ -6,34 +7,38 @@ function Navbar2() {
     const location = useLocation();
 
     const handleLogout = () => {
-
         localStorage.removeItem("token");
         localStorage.removeItem("role");
-
+        sessionStorage.removeItem("result");
         navigate("/");
+    };
 
+    const goHome = () => {
+
+        const role = localStorage.getItem("role");
+
+        if (role === "Instructor")
+            navigate("/instructor");
+        else
+            navigate("/student");
     };
 
     return (
 
-        <div
-            style={{
-                display: "flex",
-                justifyContent: "space-between",
-                padding: "15px 30px",
-                background: "#1e293b",
-                color: "white"
-            }}
-        >
+        <nav className="navbar">
 
-            <h2 style={{ cursor: "pointer" }}>
+            <h2 className="logo" onClick={goHome}>
                 Smart Assessment
             </h2>
 
             {!location.pathname.startsWith("/solve-exam") && (
 
-                <div>
-                    <button onClick={handleLogout}>
+                <div className="nav-buttons">
+
+                    <button
+                        className="btn1 btn-danger"
+                        onClick={handleLogout}
+                    >
                         Logout
                     </button>
 
@@ -41,7 +46,7 @@ function Navbar2() {
 
             )}
 
-        </div>
+        </nav>
 
     );
 

@@ -1,18 +1,110 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\madaa\\OneDrive\\Desktop\\SmartAssessment\\SmartAssessment.API\\",
+  "WorkspaceRootPath": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|c:\\users\\madaa\\onedrive\\desktop\\smartassessment\\smartassessment.api\\smartassessment.api.client\\src\\components\\navbar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|c:\\users\\madaa\\onedrive\\desktop\\smart-assessment-platform\\smartassessment.api\\smartassessment.api.client\\src\\pages\\result.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\pages\\result.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|c:\\users\\madaa\\onedrive\\desktop\\smart-assessment-platform\\smartassessment.api\\smartassessment.api.server\\models\\studentexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|solutionrelative:smartassessment.api.server\\models\\studentexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|c:\\users\\madaa\\onedrive\\desktop\\smart-assessment-platform\\smartassessment.api\\smartassessment.api.client\\src\\pages\\studentdashboard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\pages\\studentdashboard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|c:\\users\\madaa\\onedrive\\desktop\\smart-assessment-platform\\smartassessment.api\\smartassessment.api.client\\src\\components\\navbar2.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\components\\navbar2.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|c:\\users\\madaa\\onedrive\\desktop\\smart-assessment-platform\\smartassessment.api\\smartassessment.api.client\\src\\components\\navbar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\components\\navbar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|c:\\users\\madaa\\onedrive\\desktop\\smartassessment\\smartassessment.api\\smartassessment.api.client\\src\\components\\protectedroute.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\components\\protectedroute.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|c:\\users\\madaa\\onedrive\\desktop\\smart-assessment-platform\\smartassessment.api\\smartassessment.api.client\\src\\pages\\solveexam.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\pages\\solveexam.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|c:\\users\\madaa\\onedrive\\desktop\\smartassessment\\smartassessment.api\\smartassessment.api.client\\src\\components\\navbar2.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\components\\navbar2.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|c:\\users\\madaa\\onedrive\\desktop\\smart-assessment-platform\\smartassessment.api\\smartassessment.api.client\\src\\styles\\pages.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\styles\\pages.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|c:\\users\\madaa\\onedrive\\desktop\\smart-assessment-platform\\smartassessment.api\\smartassessment.api.server\\controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|solutionrelative:smartassessment.api.server\\controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|c:\\users\\madaa\\onedrive\\desktop\\smart-assessment-platform\\smartassessment.api\\smartassessment.api.server\\models\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|solutionrelative:smartassessment.api.server\\models\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|c:\\users\\madaa\\onedrive\\desktop\\smart-assessment-platform\\smartassessment.api\\smartassessment.api.server\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|solutionrelative:smartassessment.api.server\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|c:\\users\\madaa\\onedrive\\desktop\\smart-assessment-platform\\smartassessment.api\\smartassessment.api.server\\dtos\\examdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|solutionrelative:smartassessment.api.server\\dtos\\examdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|c:\\users\\madaa\\onedrive\\desktop\\smart-assessment-platform\\smartassessment.api\\smartassessment.api.client\\src\\pages\\editexam.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\pages\\editexam.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|c:\\users\\madaa\\onedrive\\desktop\\smart-assessment-platform\\smartassessment.api\\smartassessment.api.client\\src\\pages\\createexam.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\pages\\createexam.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|c:\\users\\madaa\\onedrive\\desktop\\smart-assessment-platform\\smartassessment.api\\smartassessment.api.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|solutionrelative:smartassessment.api.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|c:\\users\\madaa\\onedrive\\desktop\\smart-assessment-platform\\smartassessment.api\\smartassessment.api.server\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|solutionrelative:smartassessment.api.server\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|c:\\users\\madaa\\onedrive\\desktop\\smart-assessment-platform\\smartassessment.api\\smartassessment.api.client\\src\\pages\\instructordashboard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\pages\\instructordashboard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|c:\\users\\madaa\\onedrive\\desktop\\smart-assessment-platform\\smartassessment.api\\smartassessment.api.client\\src\\styles\\components.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\styles\\components.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|c:\\users\\madaa\\onedrive\\desktop\\smart-assessment-platform\\smartassessment.api\\smartassessment.api.client\\src\\pages\\addquestion.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\pages\\addquestion.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|c:\\users\\madaa\\onedrive\\desktop\\smart-assessment-platform\\smartassessment.api\\smartassessment.api.client\\src\\pages\\editquestion.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\pages\\editquestion.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|c:\\users\\madaa\\onedrive\\desktop\\smart-assessment-platform\\smartassessment.api\\smartassessment.api.client\\src\\pages\\questions.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\pages\\questions.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|c:\\users\\madaa\\onedrive\\desktop\\smart-assessment-platform\\smartassessment.api\\smartassessment.api.client\\src\\pages\\signup.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\pages\\signup.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|c:\\users\\madaa\\onedrive\\desktop\\smart-assessment-platform\\smartassessment.api\\smartassessment.api.client\\src\\styles\\variables.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\styles\\variables.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|c:\\users\\madaa\\onedrive\\desktop\\smart-assessment-platform\\smartassessment.api\\smartassessment.api.client\\src\\pages\\login.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\pages\\login.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|c:\\users\\madaa\\onedrive\\desktop\\smart-assessment-platform\\smartassessment.api\\smartassessment.api.client\\src\\styles\\global.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\styles\\global.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|c:\\users\\madaa\\onedrive\\desktop\\smart-assessment-platform\\smartassessment.api\\smartassessment.api.client\\src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|c:\\users\\madaa\\onedrive\\desktop\\smart-assessment-platform\\smartassessment.api\\smartassessment.api.client\\src\\components\\protectedroute.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\components\\protectedroute.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,50 +114,352 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "StudentExam.cs",
+              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\SmartAssessment.API.Server\\Models\\StudentExam.cs",
+              "RelativeDocumentMoniker": "SmartAssessment.API.Server\\Models\\StudentExam.cs",
+              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\SmartAssessment.API.Server\\Models\\StudentExam.cs",
+              "RelativeToolTip": "SmartAssessment.API.Server\\Models\\StudentExam.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T03:18:35.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateExam.tsx",
+              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\CreateExam.tsx",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\pages\\CreateExam.tsx",
+              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\CreateExam.tsx",
+              "RelativeToolTip": "smartassessment.api.client\\src\\pages\\CreateExam.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-14T03:03:22.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EditExam.tsx",
+              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\EditExam.tsx",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\pages\\EditExam.tsx",
+              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\EditExam.tsx",
+              "RelativeToolTip": "smartassessment.api.client\\src\\pages\\EditExam.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-14T02:14:10.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "pages.css",
+              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\styles\\pages.css",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\styles\\pages.css",
+              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\styles\\pages.css",
+              "RelativeToolTip": "smartassessment.api.client\\src\\styles\\pages.css",
+              "ViewState": "AgIAAGMCAAAAAAAAAAAqwHYCAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-14T01:05:16.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Navbar.tsx",
-              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\SmartAssessment\\SmartAssessment.API\\smartassessment.api.client\\src\\components\\Navbar.tsx",
+              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\components\\Navbar.tsx",
               "RelativeDocumentMoniker": "smartassessment.api.client\\src\\components\\Navbar.tsx",
-              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\SmartAssessment\\SmartAssessment.API\\smartassessment.api.client\\src\\components\\Navbar.tsx",
+              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\components\\Navbar.tsx",
               "RelativeToolTip": "smartassessment.api.client\\src\\components\\Navbar.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2026-07-09T02:49:50.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProtectedRoute.tsx",
-              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\SmartAssessment\\SmartAssessment.API\\smartassessment.api.client\\src\\components\\ProtectedRoute.tsx",
-              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\components\\ProtectedRoute.tsx",
-              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\SmartAssessment\\SmartAssessment.API\\smartassessment.api.client\\src\\components\\ProtectedRoute.tsx",
-              "RelativeToolTip": "smartassessment.api.client\\src\\components\\ProtectedRoute.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "StudentDashboard.tsx",
+              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\StudentDashboard.tsx",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\pages\\StudentDashboard.tsx",
+              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\StudentDashboard.tsx",
+              "RelativeToolTip": "smartassessment.api.client\\src\\pages\\StudentDashboard.tsx",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAABkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-07-09T02:49:49.427Z",
+              "WhenOpened": "2026-07-14T03:06:25.751Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Result.tsx",
+              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\Result.tsx",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\pages\\Result.tsx",
+              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\Result.tsx",
+              "RelativeToolTip": "smartassessment.api.client\\src\\pages\\Result.tsx",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-14T04:21:55.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExamController.cs",
+              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\SmartAssessment.API.Server\\Controllers\\ExamController.cs",
+              "RelativeDocumentMoniker": "SmartAssessment.API.Server\\Controllers\\ExamController.cs",
+              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\SmartAssessment.API.Server\\Controllers\\ExamController.cs",
+              "RelativeToolTip": "SmartAssessment.API.Server\\Controllers\\ExamController.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAJ0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T03:17:58.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SolveExam.tsx",
+              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\SolveExam.tsx",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\pages\\SolveExam.tsx",
+              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\SolveExam.tsx",
+              "RelativeToolTip": "smartassessment.api.client\\src\\pages\\SolveExam.tsx",
+              "ViewState": "AgIAAE4AAAAAAAAAAAD4v1sAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-14T04:15:45.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Navbar2.tsx",
-              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\SmartAssessment\\SmartAssessment.API\\smartassessment.api.client\\src\\components\\Navbar2.tsx",
+              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\components\\Navbar2.tsx",
               "RelativeDocumentMoniker": "smartassessment.api.client\\src\\components\\Navbar2.tsx",
-              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\SmartAssessment\\SmartAssessment.API\\smartassessment.api.client\\src\\components\\Navbar2.tsx",
+              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\components\\Navbar2.tsx",
               "RelativeToolTip": "smartassessment.api.client\\src\\components\\Navbar2.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2026-07-09T02:49:46.012Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\SmartAssessment.API.Server\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SmartAssessment.API.Server\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\SmartAssessment.API.Server\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SmartAssessment.API.Server\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAuwHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T03:18:50.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ExamDto.cs",
+              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\SmartAssessment.API.Server\\DTOs\\ExamDto.cs",
+              "RelativeDocumentMoniker": "SmartAssessment.API.Server\\DTOs\\ExamDto.cs",
+              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\SmartAssessment.API.Server\\DTOs\\ExamDto.cs",
+              "RelativeToolTip": "SmartAssessment.API.Server\\DTOs\\ExamDto.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA/wBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T03:19:46.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\SmartAssessment.API.Server\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "SmartAssessment.API.Server\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\SmartAssessment.API.Server\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "SmartAssessment.API.Server\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T03:20:31.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\SmartAssessment.API.Server\\Models\\Question.cs",
+              "RelativeDocumentMoniker": "SmartAssessment.API.Server\\Models\\Question.cs",
+              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\SmartAssessment.API.Server\\Models\\Question.cs",
+              "RelativeToolTip": "SmartAssessment.API.Server\\Models\\Question.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvx0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T03:53:36.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Exam.cs",
+              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\SmartAssessment.API.Server\\Models\\Exam.cs",
+              "RelativeDocumentMoniker": "SmartAssessment.API.Server\\Models\\Exam.cs",
+              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\SmartAssessment.API.Server\\Models\\Exam.cs",
+              "RelativeToolTip": "SmartAssessment.API.Server\\Models\\Exam.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvywAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T03:53:56.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddQuestion.tsx",
+              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\AddQuestion.tsx",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\pages\\AddQuestion.tsx",
+              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\AddQuestion.tsx",
+              "RelativeToolTip": "smartassessment.api.client\\src\\pages\\AddQuestion.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-14T02:58:17.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EditQuestion.tsx",
+              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\EditQuestion.tsx",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\pages\\EditQuestion.tsx",
+              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\EditQuestion.tsx",
+              "RelativeToolTip": "smartassessment.api.client\\src\\pages\\EditQuestion.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-14T02:38:53.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "InstructorDashboard.tsx",
+              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\InstructorDashboard.tsx",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\pages\\InstructorDashboard.tsx",
+              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\InstructorDashboard.tsx",
+              "RelativeToolTip": "smartassessment.api.client\\src\\pages\\InstructorDashboard.tsx",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAwFUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-14T01:52:43.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Questions.tsx",
+              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\Questions.tsx",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\pages\\Questions.tsx",
+              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\Questions.tsx",
+              "RelativeToolTip": "smartassessment.api.client\\src\\pages\\Questions.tsx",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAIwIsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-14T02:36:14.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Signup.tsx",
+              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\Signup.tsx",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\pages\\Signup.tsx",
+              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\Signup.tsx",
+              "RelativeToolTip": "smartassessment.api.client\\src\\pages\\Signup.tsx",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAIMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-14T01:48:24.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "components.css",
+              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\styles\\components.css",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\styles\\components.css",
+              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\styles\\components.css",
+              "RelativeToolTip": "smartassessment.api.client\\src\\styles\\components.css",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAIwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-14T00:59:58.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "variables.css",
+              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\styles\\variables.css",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\styles\\variables.css",
+              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\styles\\variables.css",
+              "RelativeToolTip": "smartassessment.api.client\\src\\styles\\variables.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-14T01:03:13.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Login.tsx",
+              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\Login.tsx",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\pages\\Login.tsx",
+              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\Login.tsx",
+              "RelativeToolTip": "smartassessment.api.client\\src\\pages\\Login.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-14T01:03:56.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "global.css",
+              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\styles\\global.css",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\styles\\global.css",
+              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\styles\\global.css",
+              "RelativeToolTip": "smartassessment.api.client\\src\\styles\\global.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-14T01:03:26.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "main.tsx",
+              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\main.tsx",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\main.tsx",
+              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\main.tsx",
+              "RelativeToolTip": "smartassessment.api.client\\src\\main.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-14T01:03:43.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProtectedRoute.tsx",
+              "DocumentMoniker": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\components\\ProtectedRoute.tsx",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\components\\ProtectedRoute.tsx",
+              "ToolTip": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\smartassessment.api.client\\src\\components\\ProtectedRoute.tsx",
+              "RelativeToolTip": "smartassessment.api.client\\src\\components\\ProtectedRoute.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-09T02:49:49.427Z"
             }
           ]
         }

@@ -3,6 +3,7 @@ import api from "../api/api";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
+import logo from "../assets/logo-smart.jpeg";
 function Login() {
 
 
@@ -60,42 +61,67 @@ function Login() {
     };
 
     return (
+        <div className="login-page">
 
-        <div>
+            <div className="login-container">
 
-            <h1>Login</h1>
-            
-            <input
-                type="email"
-                placeholder="Email"
-                onChange={(e) => setEmail(e.target.value)}
-            />
+                <div className="title-row">
 
-            <br />
-            <br />
+                    <img
+                        src={logo}
+                        alt="Smart Assessment"
+                        className="login-logo"
+                    />
 
-            <input
-                type="password"
-                placeholder="Password"
-                onChange={(e) => setPassword(e.target.value)}
-            />
+                    <h1>
+                        Welcome <span>Back</span>
+                    </h1>
 
-            <br />
-            <br />
+                </div>
 
-            <button onClick={handleLogin}>  
-                Login
-            </button>
+                <p className="subtitle">
+                    Please login to continue to your account
+                </p>
 
-            <br />
-            <br />
+                <label>Email Address</label>
 
-            <button onClick={() => navigate("/signup")}>
-                Don't have an account? Sign Up
-            </button>
+                <input
+                    className="input"
+                    type="email"
+                    placeholder="Enter your email"
+                    onChange={(e) => setEmail(e.target.value)}
+                />
+
+                <label>Password</label>
+
+                <input
+                    className="input"
+                    type="password"
+                    placeholder="Enter your password"
+                    onChange={(e) => setPassword(e.target.value)}
+                />
+
+                <button
+                    className="btn btn-primary full-width"
+                    onClick={handleLogin}
+                >
+                    Login
+                </button>
+
+                <div className="divider">
+                    <span>OR</span>
+                </div>
+
+                <button
+                    className="btn btn-outline full-width"
+                    onClick={() => navigate("/signup")}
+                >
+                    Create New Account
+                </button>
+
+            </div>
 
         </div>
-
     );
 
 }

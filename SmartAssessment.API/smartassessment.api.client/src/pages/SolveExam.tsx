@@ -47,7 +47,6 @@ function SolveExam() {
                 if (prev <= 1) {
 
                     clearInterval(timer);
-
                     return 0;
 
                 }
@@ -92,9 +91,12 @@ function SolveExam() {
                 if (isAuto)
                     alert("Time Up!");
 
-                navigate("/result", {
-                    state: res.data
-                });
+                sessionStorage.setItem(
+                    "result",
+                    JSON.stringify(res.data)
+                );
+
+                navigate("/result");
 
             })
             .catch((err) => {
@@ -111,68 +113,105 @@ function SolveExam() {
     const seconds = (timeLeft ?? 0) % 60;
 
     return (
-        <div>
 
-            <h1>Solve Exam</h1>
+        <>
 
-            <h2>
-                Time Left: {minutes}:{seconds.toString().padStart(2, "0")}
-            </h2>
+            <div className="solve-container">
 
-            {questions.map((question, index) => (
+                <div className="solve-header">
 
-                <div
-                    key={question.id}
-                    style={{
-                        border: "1px solid gray",
-                        padding: "20px",
-                        marginBottom: "20px"
-                    }}
-                >
+                    <h1 className="solve-title">
+                        Solve Exam
+                    </h1>
 
-                    <h3>
-                        {index + 1}. {question.questionText}
-                    </h3>
-
-                    {question.choices.map((choice: any) => (
-
-                        <div key={choice.id}>
-
-                            <label>
-
-                                <input
-                                    type="radio"
-                                    name={`question-${question.id}`}
-                                    value={choice.id}
-                                    checked={answers[question.id] === choice.id}
-                                    onChange={() =>
-                                        setAnswers({
-                                            ...answers,
-                                            [question.id]: choice.id
-                                        })
-                                    }
-                                />
-
-                                {choice.choiceText}
-
-                            </label>
-
-                        </div>
-
-                    ))}
+                    <div
+                        className="solve-timer"
+                        style={{
+                            background:
+                                (timeLeft ?? 0) <= 60
+                                    ? "#dc2626"
+                                    : (timeLeft ?? 0) <= 300
+                                        ? "#f59e0b"
+                                        : "#2563eb"
+                        }}
+                    >
+                        ⏱ {minutes}:{seconds.toString().padStart(2, "0")}
+                    </div>
 
                 </div>
 
-            ))}
+                {questions.map((question, index) => (
 
-            <button
-                onClick={() => handleSubmit(false)}
-                disabled={submitted}
-            >
-                Submit Exam
-            </button>
+                    <div
+                        key={question.id}
+                        className="solve-question-card"
+                    >
 
-        </div>
+                        <div className="solve-question-top">
+
+                            <span className="solve-question-number">
+                                Question {index + 1}
+                            </span>
+
+                            <span className="solve-question-score">
+                                {question.score} Points
+                            </span>
+
+                        </div>
+
+                        <div className="solve-question-text">
+                            {question.questionText}
+                        </div>
+
+                        <div className="solve-choices">
+
+                            {question.choices.map((choice: any) => (
+
+                                <label
+                                    key={choice.id}
+                                    className={
+                                        answers[question.id] === choice.id
+                                            ? "solve-choice solve-choice-active"
+                                            : "solve-choice"
+                                    }
+                                >
+
+                                    <input
+                                        type="radio"
+                                        name={`question-${question.id}`}
+                                        checked={answers[question.id] === choice.id}
+                                        onChange={() =>
+                                            setAnswers({
+                                                ...answers,
+                                                [question.id]: choice.id
+                                            })
+                                        }
+                                    />
+
+                                    <span>{choice.choiceText}</span>
+
+                                </label>
+
+                            ))}
+
+                        </div>
+
+                    </div>
+
+                ))}
+
+                <button
+                    className="btn btn-green solve-submit-btn"
+                    onClick={() => handleSubmit(false)}
+                    disabled={submitted}
+                >
+                    {submitted ? "Submitting..." : "Submit Exam"}
+                </button>
+
+            </div>
+
+        </>
+
     );
 
 }

@@ -51,90 +51,103 @@ function Questions() {
 
     return (
         <>
-        <Navbar />
+            <Navbar />
 
-        <div style={{ width: "70%", margin: "auto" }}>
+            <div className="page-container">
 
-            <h1>Questions</h1>
+                <div className="page-header">
 
-            <button
-                onClick={() => navigate(`/add-question/${id}`)}
-            >
-                Add New Question
-            </button>
+                    <h1 className="page-title">
+                        Questions
+                    </h1>
 
-            <br /><br />
-
-            {
-
-                questions.map((question, index) => (
-
-                    <div
-                        key={question.id}
-                        style={{
-                            border: "1px solid gray",
-                            padding: "20px",
-                            marginBottom: "20px"
-                        }}
+                    <button
+                        className="btn btn-primary"
+                        onClick={() => navigate(`/add-question/${id}`)}
                     >
+                        + Add Question
+                    </button>
 
-                        <h3>
+                </div>
 
-                            {index + 1}. {question.questionText}
+                {
+                    questions.map((question, index) => (
 
-                        </h3>
+                        <div
+                            key={question.id}
+                            className="question-card"
+                        >
 
-                        <p>
+                            <div className="question-header">
 
-                            Score : {question.score}
+                                <div>
 
-                        </p>
+                                    <h2>
+                                        {index + 1}. {question.questionText}
+                                    </h2>
 
-                        {
-
-                            question.choices.map((choice: any) => (
-
-                                <div key={choice.id}>
-
-                                    {choice.choiceText}
-
-                                    {
-
-                                        choice.isCorrect &&
-                                        <b> ?</b>
-
-                                    }
+                                    <span className="score-badge">
+                                        {question.score} Marks
+                                    </span>
 
                                 </div>
 
-                            ))
+                                <div className="question-actions">
 
-                        }
+                                    <button
+                                        className="btn btn-warning"
+                                        onClick={() =>
+                                            navigate(`/edit-question/${question.id}`)
+                                        }
+                                    >
+                                        Edit
+                                    </button>
 
-                        <br />
+                                    <button
+                                        className="btn btn-danger"
+                                        onClick={() => handleDelete(question.id)}
+                                    >
+                                        Delete
+                                    </button>
 
-                        <button
-                            onClick={() =>
-                                navigate(`/edit-question/${question.id}`)
-                            }
-                        >
-                            Edit
-                        </button>
+                                </div>
 
-                        <button
-                            style={{ marginLeft: "10px" }}
-                            onClick={() => handleDelete(question.id)}
-                        >
-                            Delete
-                        </button>
+                            </div>
 
-                    </div>
+                            <div className="choices">
 
-                ))
+                                {
+                                    question.choices.map((choice: any) => (
 
-            }
+                                        <div
+                                            key={choice.id}
+                                            className={
+                                                choice.isCorrect
+                                                    ? "choice correct"
+                                                    : "choice"
+                                            }
+                                        >
 
-        </div>
+                                            {choice.choiceText}
+
+                                            {choice.isCorrect && (
+                                                <span> ✔</span>
+                                            )}
+
+                                        </div>
+
+                                    ))
+                                }
+
+                            </div>
+
+                        </div>
+
+                    ))
+                }
+
+            </div>
+
         </>
     );
 

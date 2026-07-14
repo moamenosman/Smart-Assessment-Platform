@@ -1,4 +1,5 @@
 import { useNavigate, useLocation } from "react-router-dom";
+import "../styles/components.css";
 
 function Navbar() {
 
@@ -6,50 +7,45 @@ function Navbar() {
     const location = useLocation();
 
     const handleLogout = () => {
-
         localStorage.removeItem("token");
         localStorage.removeItem("role");
-
+        sessionStorage.removeItem("result");
         navigate("/");
+    };
 
+    const goHome = () => {
+
+        const role = localStorage.getItem("role");
+
+        if (role === "Instructor")
+            navigate("/instructor");
+        else
+            navigate("/student");
     };
 
     return (
 
-        <div
-            style={{
-                display: "flex",
-                justifyContent: "space-between",
-                padding: "15px 30px",
-                background: "#1e293b",
-                color: "white"
-            }}
-        >
+        <nav className="navbar">
 
-            <h2 style={{ cursor: "pointer" }}>
+            <h2 className="logo" onClick={goHome}>
                 Smart Assessment
             </h2>
 
             {!location.pathname.startsWith("/solve-exam") && (
 
-                <div>
+                <div className="nav-buttons">
 
                     <button
-                        onClick={() => {
-
-                            const role = localStorage.getItem("role");
-
-                            if (role === "Instructor")
-                                navigate("/instructor");
-                            else
-                                navigate("/student");
-
-                        }}
+                        className="btn1 btn-outline"
+                        onClick={goHome}
                     >
                         Home
                     </button>
 
-                    <button onClick={handleLogout}>
+                    <button
+                        className="btn1 btn-danger"
+                        onClick={handleLogout}
+                    >
                         Logout
                     </button>
 
@@ -57,7 +53,7 @@ function Navbar() {
 
             )}
 
-        </div>
+        </nav>
 
     );
 

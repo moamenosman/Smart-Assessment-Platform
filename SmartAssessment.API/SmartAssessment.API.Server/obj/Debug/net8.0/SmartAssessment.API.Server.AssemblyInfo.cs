@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartAssessment.API.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+644d795df31fc556f89b9c55dd257647ae59ae04")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartAssessment.API.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartAssessment.API.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

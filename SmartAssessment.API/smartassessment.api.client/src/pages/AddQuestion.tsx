@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import api from "../api/api";
-
+import Navbar from "../components/Navbar";
 function AddQuestion() {
 
     const { id } = useParams();
@@ -62,57 +62,103 @@ function AddQuestion() {
     };
 
     return (
+        <>
+            <Navbar />
 
-        <div style={{ width: "600px", margin: "40px auto" }}>
+            <div className="page-container">
 
-            <h1>Add Question</h1>
+                <div className="form-card">
 
-            <input
-                placeholder="Question"
-                value={questionText}
-                onChange={(e) => setQuestionText(e.target.value)}
-                style={{ width: "100%", marginBottom: "10px" }}
-            />
+                    <h1 className="page-title">
+                        Add <span>Question</span>
+                    </h1>
 
-            <input
-                type="number"
-                placeholder="Score"
-                value={score}
-                onChange={(e) => setScore(Number(e.target.value))}
-                style={{ width: "100%", marginBottom: "20px" }}
-            />
+                    <p className="subtitle">
+                        Create a new question
+                    </p>
 
-            {choices.map((choice, index) => (
+                    <div className="form-group">
 
-                <div key={index} style={{ marginBottom: "10px" }}>
+                        <label>Question</label>
 
-                    <input
-                        style={{ width: "80%" }}
-                        placeholder={`Choice ${index + 1}`}
-                        value={choice}
-                        onChange={(e) =>
-                            handleChoiceChange(index, e.target.value)
-                        }
-                    />
+                        <input
+                            className="input2"
+                            placeholder="Enter question"
+                            value={questionText}
+                            onChange={(e) => setQuestionText(e.target.value)}
+                        />
 
-                    <input
-                        type="radio"
-                        checked={correctChoice === index}
-                        onChange={() => setCorrectChoice(index)}
-                    />
+                    </div>
 
-                    Correct
+                    <div className="form-group score-field">
+
+                        <label>Score</label>
+
+                        <input
+                            className="input2"
+                            type="number"
+                            value={score}
+                            onChange={(e) => setScore(Number(e.target.value))}
+                        />
+
+                    </div>
+
+                    <h3 className="section-title">
+                        Choices
+                    </h3>
+
+                    <div className="choices-grid">
+
+                        {choices.map((choice, index) => (
+
+                            <div
+                                key={index}
+                                className={
+                                    correctChoice === index
+                                        ? "choice-card active"
+                                        : "choice-card"
+                                }
+                            >
+
+                                <input
+                                    className="input2"
+                                    placeholder={`Choice ${index + 1}`}
+                                    value={choice}
+                                    onChange={(e) =>
+                                        handleChoiceChange(index, e.target.value)
+                                    }
+                                />
+
+                                <label className="correct-option">
+
+                                    <input
+                                        type="radio"
+                                        checked={correctChoice === index}
+                                        onChange={() => setCorrectChoice(index)}
+                                    />
+
+                                    Correct Answer
+
+                                </label>
+
+                            </div>
+
+                        ))}
+
+                    </div>
+
+                    <button
+                        className="btn btn-green save-btn"
+                        onClick={handleSubmit}
+                    >
+                        Add Question
+                    </button>
 
                 </div>
 
-            ))}
+            </div>
 
-            <button onClick={handleSubmit}>
-                Add Question
-            </button>
-
-        </div>
-
+        </>
     );
 
 }

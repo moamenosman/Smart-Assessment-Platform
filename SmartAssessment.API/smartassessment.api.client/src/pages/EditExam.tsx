@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import api from "../api/api";
-
+import Navbar from "../components/Navbar";
 function EditExam() {
 
     const { id } = useParams();
@@ -14,7 +14,6 @@ function EditExam() {
         startTime: "",
         endTime: "",
         passPercentage: 50,
-        instructorId: 2
     });
 
     useEffect(() => {
@@ -54,66 +53,109 @@ function EditExam() {
     };
 
     return (
+        <>
+            <Navbar />
 
-        <div style={{ width: "500px", margin: "50px auto" }}>
+            <div className="page-container">
 
-            <h1>Edit Exam</h1>
+                <div className="form-card">
 
-            <input
-                name="title"
-                value={exam.title}
-                onChange={handleChange}
-                style={{ width: "100%", marginBottom: "10px" }}
-            />
+                    <h1 className="page-title">
+                        Edit <span>Exam</span>
+                    </h1>
 
-            <input
-                name="description"
-                value={exam.description}
-                onChange={handleChange}
-                style={{ width: "100%", marginBottom: "10px" }}
-            />
+                    <p className="subtitle">
+                        Update exam information
+                    </p>
 
-            <input
-                type="number"
-                name="duration"
-                value={exam.duration}
-                onChange={handleChange}
-                style={{ width: "100%", marginBottom: "10px" }}
-            />
+                    <div className="form-grid">
 
-            <input
-                type="datetime-local"
-                name="startTime"
-                value={exam.startTime?.substring(0, 16)}
-                onChange={handleChange}
-                style={{ width: "100%", marginBottom: "10px" }}
-            />
+                        <div className="form-group">
+                            <label>Exam Title</label>
 
-            <input
-                type="datetime-local"
-                name="endTime"
-                value={exam.endTime?.substring(0, 16)}
-                onChange={handleChange}
-                style={{ width: "100%", marginBottom: "10px" }}
-            />
+                            <input
+                                className="input2"
+                                name="title"
+                                value={exam.title}
+                                onChange={handleChange}
+                                placeholder="Enter exam title"
+                            />
+                        </div>
 
-            <input
-                type="number"
-                name="passPercentage"
-                value={exam.passPercentage}
-                onChange={handleChange}
-                style={{ width: "100%", marginBottom: "20px" }}
-            />
+                        <div className="form-group">
+                            <label>Description</label>
 
-            <button
-                onClick={handleSubmit}
-                style={{ width: "100%", height: "40px" }}
-            >
-                Update Exam
-            </button>
+                            <input
+                                className="input2"
+                                name="description"
+                                value={exam.description}
+                                onChange={handleChange}
+                                placeholder="Enter exam description"
+                            />
+                        </div>
 
-        </div>
+                        <div className="form-group half">
+                            <label>Duration (Minutes)</label>
 
+                            <input
+                                className="input2"
+                                type="number"
+                                name="duration"
+                                value={exam.duration}
+                                onChange={handleChange}
+                            />
+                        </div>
+
+                        <div className="form-group half">
+                            <label>Pass Percentage</label>
+
+                            <input
+                                className="input2"
+                                type="number"
+                                name="passPercentage"
+                                value={exam.passPercentage}
+                                onChange={handleChange}
+                            />
+                        </div>
+
+                        <div className="form-group half">
+                            <label>Start Time</label>
+
+                            <input
+                                className="input2"
+                                type="datetime-local"
+                                name="startTime"
+                                value={exam.startTime?.substring(0, 16)}
+                                onChange={handleChange}
+                            />
+                        </div>
+
+                        <div className="form-group half">
+                            <label>End Time</label>
+
+                            <input
+                                className="input2"
+                                type="datetime-local"
+                                name="endTime"
+                                value={exam.endTime?.substring(0, 16)}
+                                onChange={handleChange}
+                            />
+                        </div>
+
+                    </div>
+
+                    <button
+                        className="btn btn-green save-btn"
+                        onClick={handleSubmit}
+                    >
+                        Update Exam
+                    </button>
+
+                </div>
+
+            </div>
+
+        </>
     );
 
 }

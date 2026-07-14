@@ -48,69 +48,76 @@ function InstructorDashboard() {
     };
 
     return (
-
         <>
             <Navbar2 />
 
-        <div style={{ padding: "30px" }}>
+            <div className="page-container">
 
-            <h1>Instructor Dashboard</h1>
+                <div className="page-header">
 
-            <button
-                onClick={() => navigate("/create-exam")}
-                style={{
-                    marginBottom: "20px",
-                    padding: "10px 20px"
-                }}
-            >
-                Create Exam
-            </button>
-
-            {exams.map((exam) => (
-
-                <div
-                    key={exam.id}
-                    style={{
-                        border: "1px solid gray",
-                        padding: "20px",
-                        marginBottom: "20px"
-                    }}
-                >
-
-                    <h2>{exam.title}</h2>
-
-                    <p>{exam.description}</p>
-
-                    <p>
-                        <strong>Duration:</strong> {exam.duration} Minutes
-                    </p>
+                    <h1 className="page-title">
+                        Instructor Dashboard
+                    </h1>
 
                     <button
-                        onClick={() => navigate(`/edit-exam/${exam.id}`)}
+                        className="btn2 btn-primary"
+                        onClick={() => navigate("/create-exam")}
                     >
-                        Edit
+                        + Create Exam
                     </button>
-
-                    <button
-                        style={{ marginLeft: "10px" }}
-                        onClick={() => handleDelete(exam.id)}
-                    >
-                        Delete
-                    </button>
-
-                    <button
-                        style={{ marginLeft: "10px" }}
-                        onClick={() => navigate(`/questions/${exam.id}`)}
-                    >
-                        Questions
-                    </button>
-                   
 
                 </div>
 
-            ))}
+                {exams.map((exam) => (
 
-        </div>
+                    <div
+                        key={exam.id}
+                        className="exam-card"
+                    >
+
+                        <div className="exam-info">
+
+                            <h2>{exam.title}</h2>
+
+                            <p>{exam.description}</p>
+
+                            <span>
+                                <strong className="exam-duration1">Duration: </strong> <span className="exam-duration">{exam.duration} Minutes</span>
+                            </span>
+
+                        </div>
+
+                        <div className="exam-actions">
+
+                            <button
+                                className="btn btn-warning"
+                                onClick={() => navigate(`/edit-exam/${exam.id}`)}
+                            >
+                                Edit
+                            </button>
+
+                            <button
+                                className="btn btn-danger"
+                                onClick={() => handleDelete(exam.id)}
+                            >
+                                Delete
+                            </button>
+
+                            <button
+                                className="btn btn-outline2"
+                                onClick={() => navigate(`/questions/${exam.id}`)}
+                            >
+                                Questions
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                ))}
+
+            </div>
+
         </>
     );
 

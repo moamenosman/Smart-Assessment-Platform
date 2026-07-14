@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import api from "../api/api";
-
+import Navbar from "../components/Navbar";
 function CreateExam() {
 
     const navigate = useNavigate();
@@ -13,7 +13,6 @@ function CreateExam() {
         startTime: "",
         endTime: "",
         passPercentage: 50,
-        instructorId: 2
     });
 
     const handleChange = (e: any) => {
@@ -47,64 +46,115 @@ function CreateExam() {
     };
 
     return (
+        <>
+            <Navbar />
 
-        <div style={{ width: "500px", margin: "50px auto" }}>
+            <div className="page-container">
 
-            <h1>Create Exam</h1>
+                <div className="form-card">
 
-            <input
-                name="title"
-                placeholder="Title"
-                onChange={handleChange}
-                style={{ width: "100%", marginBottom: "10px" }}
-            />
+                    <h1 className="page-title">
+                        Create <span>Exam</span>
+                    </h1>
 
-            <input
-                name="description"
-                placeholder="Description"
-                onChange={handleChange}
-                style={{ width: "100%", marginBottom: "10px" }}
-            />
+                    <p className="subtitle">
+                        Create a new exam
+                    </p>
 
-            <input
-                type="number"
-                name="duration"
-                placeholder="Duration"
-                onChange={handleChange}
-                style={{ width: "100%", marginBottom: "10px" }}
-            />
+                    <div className="form-grid">
 
-            <input
-                type="datetime-local"
-                name="startTime"
-                onChange={handleChange}
-                style={{ width: "100%", marginBottom: "10px" }}
-            />
+                        <div className="form-group">
 
-            <input
-                type="datetime-local"
-                name="endTime"
-                onChange={handleChange}
-                style={{ width: "100%", marginBottom: "10px" }}
-            />
+                            <label>Exam Title</label>
 
-            <input
-                type="number"
-                name="passPercentage"
-                placeholder="Pass Percentage"
-                onChange={handleChange}
-                style={{ width: "100%", marginBottom: "20px" }}
-            />
+                            <input
+                                className="input2"
+                                name="title"
+                                placeholder="Enter exam title"
+                                onChange={handleChange}
+                            />
 
-            <button
-                onClick={handleSubmit}
-                style={{ width: "100%", height: "40px" }}
-            >
-                Create Exam
-            </button>
+                        </div>
 
-        </div>
+                        <div className="form-group">
 
+                            <label>Description</label>
+
+                            <input
+                                className="input2"
+                                name="description"
+                                placeholder="Enter exam description"
+                                onChange={handleChange}
+                            />
+
+                        </div>
+
+                        <div className="form-group half">
+
+                            <label>Duration (Minutes)</label>
+
+                            <input
+                                className="input2"
+                                type="number"
+                                name="duration"
+                                onChange={handleChange}
+                            />
+
+                        </div>
+
+                        <div className="form-group half">
+
+                            <label>Pass Percentage</label>
+
+                            <input
+                                className="input2"
+                                type="number"
+                                name="passPercentage"
+                                onChange={handleChange}
+                            />
+
+                        </div>
+
+                        <div className="form-group half">
+
+                            <label>Start Time</label>
+
+                            <input
+                                className="input2"
+                                type="datetime-local"
+                                name="startTime"
+                                onChange={handleChange}
+                            />
+
+                        </div>
+
+                        <div className="form-group half">
+
+                            <label>End Time</label>
+
+                            <input
+                                className="input2"
+                                type="datetime-local"
+                                name="endTime"
+                                onChange={handleChange}
+                            />
+
+                        </div>
+
+                    </div>
+
+                    <button
+                        className="btn btn-green save-btn"
+                        onClick={handleSubmit}
+                    >
+                        Create Exam
+                    </button>
+
+                </div>
+
+            </div>
+
+        </>
     );
 }
 
